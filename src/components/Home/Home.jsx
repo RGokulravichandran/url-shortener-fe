@@ -133,9 +133,19 @@ const Home = () => {
           <div className="short-url">
             <h1>SHORT URL : </h1>
             <div className="text">
-              <a href={""}>{status ? `${shortenedURL}` : ""}</a>
+              <a
+                // href={`${"https://new-url-shortener.netlify.app"}${shortenedURL}`}
+                href={`${"https://url-shortener-317p.onrender.com"}${shortenedURL}`}
+              >
+                {status ? `${shortenedURL}` : ""}
+              </a>
             </div>
-            <CopyToClipboard className="copy" text={""} onCopy={handleCopy}>
+            <CopyToClipboard
+              className="copy"
+              // text={`${"https://new-url-shortener.netlify.app"}${shortenedURL}`}
+              text={`${"https://url-shortener-317p.onrender.com"}${shortenedURL}`}
+              onCopy={handleCopy}
+            >
               <button className="border-2 border-blue-500 text-blue-500 font-medium px-5 py-2 ml-4 rounded-md">
                 Copy URL to Clipboard
               </button>

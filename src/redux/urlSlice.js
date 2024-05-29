@@ -7,9 +7,9 @@ const initialState = {
   isSuccess: false,
   isLoading: false,
 };
-// const backend = "http://localhost:5000/url/";
+// const backend = "http://localhost:5000/";
 // https://url-shortener-wkbn.onrender.com/url/vFpitM07P
-const backend = "https://url-server-kvn2.onrender.com/";
+const backend = "https://url-shortener-livid-six.vercel.app/";
 
 export const urlThunk = createAsyncThunk(
   "urls/urlfetchdata",
