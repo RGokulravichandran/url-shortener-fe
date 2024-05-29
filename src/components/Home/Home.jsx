@@ -143,7 +143,7 @@ const Home = () => {
             <CopyToClipboard
               className="copy"
               // text={`${"https://new-url-shortener.netlify.app"}${shortenedURL}`}
-              text={`${"https://url-shortener-317p.onrender.com"}${shortenedURL}`}
+              text={`${shortenedURL}`}
               onCopy={handleCopy}
             >
               <button className="border-2 border-blue-500 text-blue-500 font-medium px-5 py-2 ml-4 rounded-md">
