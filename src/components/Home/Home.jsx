@@ -135,7 +135,7 @@ const Home = () => {
             <div className="text">
               <a
                 // href={`${"https://new-url-shortener.netlify.app"}${shortenedURL}`}
-                href={`${"https://url-shortener-317p.onrender.com"}${shortenedURL}`}
+                href={`${shortenedURL}`}
               >
                 {status ? `${shortenedURL}` : ""}
               </a>
